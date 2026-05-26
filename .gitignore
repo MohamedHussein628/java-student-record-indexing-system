@@ -1,0 +1,24 @@
+# Java build output
+build/
+out/
+bin/
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Generated random-access database files
+*.db
+*.dat
+dbs
+dbs.txt
+dbs.tx
+
+# OS files
+.DS_Store
+Thumbs.db

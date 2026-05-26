@@ -1,0 +1,464 @@
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 1
+Enter an input file name: students.txt
+Enter an output file name: dbs.txt
+Random access file is built successfully
+
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 2
+Displaying records: 
+Alaa                Alshahari           1234      3.76      
+Tahar               Hussein             1111      2.78      
+Hamdan              Almuflahi           3333      4.0       
+Abraham             Muosleh             4444      3.56      
+Abdo                Albanna             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):
+n
+Taher               Albanna             9999      1.79      
+Yousef              Suhoba              7777      2.7       
+Yehya               Aldubaily           6666      3.5       
+Taha                Alkadmi             3325      3.9       
+Ramy                Bazzi               5555      2.42      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):
+n
+Nasser              Dahmes              1156      3.97      
+test                case                3321      2.0       
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 2
+Displaying records: 
+Alaa                Alshahari           1234      3.76      
+Tahar               Hussein             1111      2.78      
+Hamdan              Almuflahi           3333      4.0       
+Abraham             Muosleh             4444      3.56      
+Abdo                Albanna             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):
+a
+Taher               Albanna             9999      1.79      
+Yousef              Suhoba              7777      2.7       
+Yehya               Aldubaily           6666      3.5       
+Taha                Alkadmi             3325      3.9       
+Ramy                Bazzi               5555      2.42      
+Nasser              Dahmes              1156      3.97      
+test                case                3321      2.0       
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 3
+
+Building index...
+
+
+
+
+
+
+
+
+
+
+
+
+Index built successfully.
+
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 4
+
+Displaying index:
+3: (3321,11)
+7: (1234,0)
+(3333,2)
+9: (4444,3)
+10: (1156,10)
+11: (2222,4)
+12: (7777,6)
+16: (5555,9)
+21: (1111,1)
+29: (3325,8)
+30: (9999,5)
+(6666,7)
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 5
+Enter student ID: 9999
+
+Student ID: 9999
+Name: Taher                Albanna             
+GPA: 1.79
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 5
+Enter student ID: 1156
+
+Student ID: 1156
+Name: Nasser               Dahmes              
+GPA: 3.97
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 5
+Enter student ID: 3325
+
+Student ID: 3325
+Name: Taha                 Alkadmi             
+GPA: 3.9
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 6
+Enter student ID: 3325
+
+Current record: 
+Student ID: 3325
+First Name: Taha
+Last Name: Alkadmi
+GPA: 3.9
+
+Enter new first name (or press Enter to keep current): ahat
+Enter new last name (or press Enter to keep current): imdakla
+Enter new GPA (or press Enter to keep current): 3.1
+Record updated successfully.
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 5
+Enter student ID: 3325
+
+Student ID: 3325
+Name: ahat                 imdakla             
+GPA: 3.1
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 4
+
+Displaying index:
+3: (3321,11)
+7: (1234,0)
+(3333,2)
+9: (4444,3)
+10: (1156,10)
+11: (2222,4)
+12: (7777,6)
+16: (5555,9)
+21: (1111,1)
+29: (3325,8)
+30: (9999,5)
+(6666,7)
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 7
+Enter student ID: akavili
+Invalid input. Enter a valid student ID: sanders
+Invalid input. Enter a valid student ID: asda
+Invalid input. Enter a valid student ID: 1515
+
+Enter first name: akavili
+Enter last name: sanders
+Enter GPA: 2.3
+
+Record added successfully.
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 4
+
+Displaying index:
+3: (3321,11)
+7: (1234,0)
+(3333,2)
+9: (4444,3)
+10: (1156,10)
+11: (2222,4)
+12: (7777,6)
+16: (5555,9)
+21: (1111,1)
+(1515,12)
+29: (3325,8)
+30: (9999,5)
+(6666,7)
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 5
+Enter student ID: 1515
+
+Student ID: 1515
+Name: akavili              sanders             
+GPA: 2.3
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 8
+Enter student ID: 5555
+
+Record deleted successfully.
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 2
+Displaying records: 
+Alaa                Alshahari           1234      3.76      
+Tahar               Hussein             1111      2.78      
+Hamdan              Almuflahi           3333      4.0       
+Abraham             Muosleh             4444      3.56      
+Abdo                Albanna             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):
+n
+Taher               Albanna             9999      1.79      
+Yousef              Suhoba              7777      2.7       
+Yehya               Aldubaily           6666      3.5       
+ahat                imdakla             3325      3.1       
+Nasser              Dahmes              1156      3.97      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):
+n
+test                case                3321      2.0       
+akavili             sanders             1515      2.3       
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 2
+Displaying records: 
+Alaa                Alshahari           1234      3.76      
+Tahar               Hussein             1111      2.78      
+Hamdan              Almuflahi           3333      4.0       
+Abraham             Muosleh             4444      3.56      
+Abdo                Albanna             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):
+a
+Taher               Albanna             9999      1.79      
+Yousef              Suhoba              7777      2.7       
+Yehya               Aldubaily           6666      3.5       
+ahat                imdakla             3325      3.1       
+Nasser              Dahmes              1156      3.97      
+test                case                3321      2.0       
+akavili             sanders             1515      2.3       
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 5
+Enter student ID: 5555
+
+No record found for Student ID: 5555
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 4
+
+Displaying index:
+3: (3321,11)
+7: (1234,0)
+(3333,2)
+9: (4444,3)
+10: (1156,10)
+11: (2222,4)
+12: (7777,6)
+16: Tree is empty.
+21: (1111,1)
+(1515,12)
+29: (3325,8)
+30: (9999,5)
+(6666,7)
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: 8
+Enter student ID: asa
+Invalid input. Enter a valid student ID: 5555
+
+No record found for Student ID: 5555
+Menu:
+1. Make a random-access file
+2. Display the random-access file
+3. Build the index
+4. Display the index
+5. Retrieve a record
+6. Modify a record
+7. Add a new record
+8. Delete a record
+9. Exit
+Enter your choice: a
+Invalid input. Enter a number: -1
+Invalid choice. Enter a number between 1 and 9: 10
+Invalid choice. Enter a number between 1 and 9: 0
+Invalid choice. Enter a number between 1 and 9: 9
+
+Displaying entire hash table before quitting:
+3- (3321,11)
+
+7- (1234,0)
+(3333,2)
+
+9- (4444,3)
+
+10- (1156,10)
+
+11- (2222,4)
+
+12- (7777,6)
+
+21- (1111,1)
+(1515,12)
+
+29- (3325,8)
+
+30- (9999,5)
+(6666,7)
+
+Exiting the program...
